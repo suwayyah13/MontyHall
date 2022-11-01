@@ -1,0 +1,140 @@
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: #8ab4f8;
+}
+
+a.nav-link {
+    color: #8ab4f8 !important;
+}
+
+a.navbar-brand:hover, a.nav-link:hover {
+    color: #8ab4f8;
+    text-decoration: underline;
+}
+
+html {
+    font-size: 14pt;
+}
+
+@media (min-width: 80%) {
+    html {
+        font-size: 16pt;
+    }
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+body {
+    background-color: #202124;
+    color: #bdc1c6;
+}
+
+a {
+    color: #8ab4f8;
+}
+
+code {
+    color: #E01A76;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+    margin: 0 1rem;
+}
+
+input {
+    margin-left: 1rem;
+}
+
+table.table td, table.table th {
+    color: #bdc1c6;
+}
+
+.errors {
+    color: #d06161;
+    margin: 1rem;
+    font-size: 18pt;
+}
+
+.door-table {
+    width: 65rem;
+}
+
+.door-table td {
+    width: 13rem;
+    height: 13rem;
+}
+
+.door-table td > img:hover {
+    cursor: pointer;
+}
+
+label {
+    margin-right: 1rem;
+}
+
+loader {
+    width: 100%;
+}
+
+.summary {
+    font-size: 20px;
+    margin: 1rem 0;
+    color: #40bf5b;
+}
+
+.collapsible .content {
+    padding: 6px;
+    background-color: #eeeeee;
+}
+
+.collapsible .header {
+    background-color: #dddddd;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.box-container {
+    text-align: center;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-main {
+    position: fixed;
+    width: 80%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 0.1rem solid;
+    border-radius: 0.1rem;
+    padding: 1rem;
+}
+
+.modal-main button {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
