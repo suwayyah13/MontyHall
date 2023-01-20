@@ -1,4 +1,4 @@
 # MontyHall
 Monty Hall Problem solution:
-1. As a game - choose the door and open one by one
-2. As a bulk simulation load - enter number of simulations and get the result
+1. Common: bulk simulations load - enter number of simulations and get the results.
+2. Interactive: play the game - choose the door, decide change the door or not and open it?
